@@ -8,3 +8,14 @@ Machine Learning: Python, scikit-learn, TF-IDF, Logistic Regression
 Backend: Flask, Flask-CORS, Tweepy, joblib
 
 Frontend: React (Vite), JavaScript, Chart.js, Axios/Fetch
+
+# Project Workflow
+
+1. User enters a keyword or hashtag on the website  
+2. Frontend sends the request to the backend API  
+3. Backend fetches related tweets using the Twitter API  
+4. Tweets are cleaned and converted into TF-IDF vectors  
+5. Logistic Regression model predicts sentiment  
+6. Results are sent back to the frontend  
+7. Website displays sentiment distribution and sample tweets  
+
