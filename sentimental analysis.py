@@ -1,5 +1,5 @@
 # %% [markdown]
-# SENTIMENTAL ANALYSIS
+# SENTIMENTAL ANALYSIS (using tweepy)
 # 
 
 # %%
@@ -24,12 +24,13 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 df=pd.read_csv(r"C:\Users\ASUS\Desktop\training datasets\twitter_training.csv\twitter_training.csv")
 
 # %%
-df.tail(5)
+df.tail(5),df.head(5)
 
 # %%
 df.info()
 
 # %%
 df.isnull().sum()
+
 
 
